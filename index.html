@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок сторінки</title>
+    <link rel="icon" type="image/x-icon" href="/favicon (1).ico" />
+
+    <style>
+      a:link,
+      a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover,
+      a:active {
+        background-color: red;
+      }
+      div {
+        background-image: url("/Images/фон.jpg");
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+
+    <style>
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+      }
+      table#t01 tr:nth-child(even) {
+        background-color: #eee;
+      }
+      table#t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      table#t01 th {
+        background-color: black;
+        color: white;
+      }
+    </style>
+
+    <style>
+      .nav-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .nav-menu li {
+        float: left;
+      }
+
+      .nav-menu li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      .nav-menu li a:hover {
+        background-color: #0e0d0d60;
+      }
+    </style>
+  </head>
+  <body>
+
+	<h1 style="color: red;">  </h1>
+
+    <h1 style="color: red">Основні приклади</h1>
+
+    <h1>Мій перший заголовок</h1>
+    <p>Мій перший параграф.</p>
+
+    <h1>Це заголовок 1</h1>
+    <h2>Це заголовок 2</h2>
+    <h3>Це заголовок 3</h3>
+
+    <p>Це параграф.</p>
+    <p>Це інший параграф.</p>
+
+    <a href="https://w3schoolsua.github.io/">Це посилання</a>
+
+    <img src="./down(1).png" alt="W3Schools" width="104" height="142" />
+
+    <button>Натисніть мене</button>
+
+    <h2>Невпорядкований список HTML</h2>
+    <ul>
+      <li>Кава</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ul>
+
+    <h2>Впорядкований список HTML</h2>
+    <ol>
+      <li>Кава</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ol>
+
+    <h1 style="color: red">Елементи</h1>
+
+    <h1>Мій перший заголовок</h1>
+    <p>Мій перший параграф.</p>
+
+    <h1 style="color: red">Атрибути</h1>
+
+    <a href="https://w3schoolsua.github.io/">Це посилання</a>
+    <img src="/images/downloadIcon.jfif" width="500" height="600" alt="Фото" />
+
+    <p style="color: green">Це параграф зеленого кольору.</p>
+
+    <p title="Я виринаюча підказка">Це параграф.</p>
+
+    <p title="About" W3Schools>
+      Ви не можете опускати лапки навколо значення атрибута, якщо значення
+      містить пробіли.
+    </p>
+
+    <p title='John "ShotGun" Nelson'>John з подвійними лапками</p>
+    <p title="John 'ShotGun' Nelson">John з одинарними лапками</p>
+
+    <h1 style="color: red">Параграфи</h1>
+
+    <p>Це параграф.</p>
+    <p>Це параграф.</p>
+    <p>Це параграф.</p>
+
+    <p>В HTML пробіли і нові рядки ігноруються:</p>
+
+    <p>
+      Зродились ми великої години, З пожеж війни і з полум'я вогнів, Плекав нас
+      біль по втраті України, Кормив нас гнів і злість на ворогів.
+    </p>
+
+    <p>Тег pre зберігає як пробіли, так і розриви рядків:</p>
+
+    <pre>
+І ось ідем у бою життєвому.
+Міцні, тверді, незламні мов граніт,
+Бо плач не дав свободи ще нікому,
+А хто борець, той здобуває світ.
+</pre
+    >
+
+    <h1 style="color: red">Посилання</h1>
+    <a href="https://www.w3schools.com/html/"
+      >HTML уроки для початківців онлайн</a
+    >
+
+    <h2>Кольори посилань</h2>
+    <p>Ви можете змінити стандартні кольори посилань</p>
+
+    <h2>Кнопка посилання</h2>
+    <p>Посилання, оформлене у вигляді кнопки:</p>
+    <a href="../index.html" target="_blank">Це посилання</a>
+
+    <h2>Атрибут target</h2>
+    <a href="https://www.w3schools.com/" target="_blank"
+      >Відвідати W3Schools!</a
+    >
+    <p>
+      Якщо target="_blank", посилання відкриється в новому вікні або вкладці
+      браузера.
+    </p>
+
+    <a href="https://www.w3schools.com/html/" target="_top">HTML5 Підручник!</a>
+
+    <a href="index.html">
+      <img
+        src="smiley.gif"
+        alt="HTML уроки для початківців"
+        style="width: 42px; height: 42px; border: 0"
+      />
+    </a>
+
+    <p><a href="#C4">Перейти до розділу 4</a></p>
+    <p><a href="#C10">Перейти до розділу 10</a></p>
+
+    <h2>Розділ 1</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h2>Розділ 2</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h2>Розділ 3</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h2 id="C4">Розділ 4</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h2>Розділ 5</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h2 id="C10">Розділ 10</h2>
+    <p>Цей розділ пояснює...</p>
+
+    <h1 style="color: red">Карти зображень</h1>
+    <img src="/images/laptop.jfif" alt="Workplace" usemap="#workmap" />
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Комп’ютер"
+        href="/images/downloadIcon.jfif"
+      />
+    </map>
+
+    <h2>Зображення в якості фону</h2>
+
+    <div>
+      Ви можете вказати фонові зображення<br />
+      для будь-якого видимого елемента HTML.<br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <h1 style="color: red">Таблиці</h1>
+
+    <h2 style="color: red;">Стилізація таблиць</h2>
+
+    <table>
+      <tr>
+        <th style="width: 56%">Ім'я</th>
+        <th style="width: 12%">Прізвище</th>
+        <th>Вік</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br />
+
+    <table id="t01">
+      <tr>
+        <th>Ім'я</th>
+        <th>Прізвище</th>
+        <th>Вік</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+
+    <h1 style="color: red">Таблиця з різнокольоровими стовпцями</h1>
+
+    <table>
+      <tr>
+        <th style="background-color: #99ffb3">Ім'я</th>
+        <th style="background-color: #99ccff">Прізвище</th>
+        <th style="background-color: #99ff99">Вік</th>
+      </tr>
+      <tr>
+        <td style="background-color: #d8c7c7">Jill</td>
+        <td style="background-color: #e62374">Smith</td>
+        <td style="background-color: #234fc9">50</td>
+      </tr>
+      <tr>
+        <td style="background-color: #ffcccc">Eve</td>
+        <td style="background-color: #cce6ff">Jackson</td>
+        <td style="background-color: #ccffcc">94</td>
+      </tr>
+      <tr>
+        <td style="background-color: #ffcccc">John</td>
+        <td style="background-color: #8aaccc">Doe</td>
+        <td style="background-color: #ccffcc">80</td>
+      </tr>
+    </table>
+
+    <h2>Навігаційне меню</h2>
+    <p>
+      В цьому прикладі ми використовуємо CSS для стилізації списку по
+      горизонталі, щоб створити меню навігації:
+    </p>
+
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+    <ul style="list-style-type: disc">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: circle">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: square">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: none">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <ol type="1">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="A">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="a">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="I">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="i">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <dl>
+      <dt>Кава</dt>
+      <dd>- чорний гарячий напій</dd>
+      <dt>Молоко</dt>
+      <dd>- білий холодний напій</dd>
+    </dl>
+
+    <ul>
+      <li>Кава</li>
+      <li>
+        Чай
+        <ul>
+          <li>Чорний чай</li>
+          <li>Зелений чай</li>
+        </ul>
+      </li>
+      <li>Молоко</li>
+    </ul>
+
+    <ol start="50">
+      <li>Кава</li>
+      <li>Чай</li>
+      <li>Молоко</li>
+    </ol>
+
+    <h1 style="color: red">Атрибути форми</h1>
+
+    <h2>HTML форми</h2>
+
+    <form action="https://www.w3schools.com/action_page.php">
+      Ім'я:<br />
+      <input type="text" name="firstname" value="Mickey" />
+      <br />
+      Прізвище:<br />
+      <input type="text" name="lastname" value="Mouse" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <br />
+
+    <p>
+      Якщо ви натисните кнопку "Надіслати", дані форми будуть надіслані на
+      сторінку "/action_page.php".
+    </p>
+
+    <form action="https://www.w3schools.com/action_page.php">
+      Введіть ваше ім'я:
+      <input name="firstname" type="text" />
+      <br /><br />
+      <input type="submit" />
+    </form>
+    <br />
+    <br />
+    <br />
+
+    <select name="cars" size="3">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br />
+    <br />
+    <select name="cars" size="4" multiple>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <br />
+    <br />
+    <textarea name="message" rows="10" cols="30">
+		The cat was playing in the garden.
+		</textarea
+    >
+
+    <textarea name="message" style="width: 200px; height: 600px">
+			The cat was playing in the garden.
+			</textarea
+    >
+
+    <button type="button" onclick="alert('Слава Україні!')">Тицни мене!</button>
+    <br />
+    <br />
+    <br />
+    <form action="/action_page.html">
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+    <br />
+    <br />
+
+    <form>
+      Ім’я:<br />
+      <input type="text" name="firstname" /><br />
+      Прізвище:<br />
+      <input type="text" name="lastname" />
+    </form>
+
+    <br />
+    <br />
+
+    <form>
+      Ім’я користувача:<br />
+      <input type="text" name="username" /><br />
+      Пароль користувача:<br />
+      <input type="password" name="psw" />
+    </form>
+
+    <br />
+    <br />
+
+    <form action="/action_page.html">
+      Ім’я:<br />
+      <input type="text" name="firstname" value="Mickey" /><br />
+      Прізвище:<br />
+      <input type="text" name="lastname" value="Mouse" /><br /><br />
+      <input type="submit" value="Надіслати" />
+    </form>
+
+    <br />
+    <br />
+
+
+    <form>
+      <input type="radio" name="gender" value="male" checked /> Чоловік<br />
+      <input type="radio" name="gender" value="female" /> Жінка<br />
+      <input type="radio" name="gender" value="other" /> Інше
+    </form>
+
+    <br />
+    <br />
+
+    <h2>Елемент output</h2>
+    <p>Елемент output представляє результат розрахунку.</p>
+
+    <form
+      action="https://www.w3schools.com/action_page.php"
+      oninput="x.value=parseInt(a.value)+parseInt(b.value)"
+    >
+      0
+      <input type="range" id="a" name="a" value="50" />
+      100 +
+      <input type="number" id="b" name="b" value="50" />
+      =
+      <output name="x" for="a b"></output>
+      <br /><br />
+      <input type="submit" />
+    </form>
+
+    <p>
+      <b>Примітка:</b> Елемент output не підтримується Internet Explorer та Edge
+      12 і більш ранніх версіях.
+    </p>
+
+    <h2>Атрибут formaction</h2>
+    <p>
+      Атрибут formaction вказує URL-адресу файла, який буде обробляти елемент
+      управління введенням при відправці форми.
+    </p>
+
+    <form action="https://www.w3schools.com/action_page.php">
+      Ім'я: <input type="text" name="fname" /><br />
+      Прізвище: <input type="text" name="lname" /><br />
+      <input type="submit" value="Відправити" /><br />
+      <input
+        type="submit"
+        formaction="/action_page2.php"
+        value="Відправити на іншу сторінку"
+      />
+    </form>
+
+    <p>
+      <b>Примітка:</b> Атрибут formaction тега input не підтримується в Internet
+      Explorer 9 і більш ранніх версіях.
+    </p>
+
+    <h2>Атрибут formenctype</h2>
+    <p>
+      Атрибут formenctype вказує, як данні форми мають бути закодовані при
+      відправці (тільки для форм з method="post").
+    </p>
+
+    <form
+      action="https://www.w3schools.com/action_page_binary.asp"
+      method="post"
+    >
+      Ім'я: <input type="text" name="fname" /><br />
+      <input type="submit" value="Submit" />
+      <input
+        type="submit"
+        formenctype="multipart/form-data"
+        value="Submit as Multipart/form-data"
+      />
+    </form>
+  </body>
+</html>
+

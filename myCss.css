@@ -1,0 +1,81 @@
+	  a:link,
+      a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover,
+      a:active {
+        background-color: red;
+      }
+      div {
+        background-image: url("/Images/фон.jpg");
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+
+    <style>
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+      }
+      table#t01 tr:nth-child(even) {
+        background-color: #eee;
+      }
+      table#t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      table#t01 th {
+        background-color: black;
+        color: white;
+      }
+    </style>
+
+    <style>
+      .nav-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ff1b1b;
+      }
+
+      .nav-menu li {
+        float: left;
+      }
+
+      .nav-menu li a {
+        display: block;
+        color: rgb(14, 255, 163);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      .nav-menu li a:hover {
+        background-color: #0e0d0d60;
+      }
+  
